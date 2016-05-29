@@ -1,0 +1,133 @@
+.navbar {
+    margin-bottom: 20px;
+    margin-top: 30px
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default a:hover {
+    background: 0 0;
+    color: #0383c0!important;
+    font-weight: 700
+}
+.logo-name {
+    color: #0383c0!important;
+}
+.logo {
+    width: 100%;
+    margin: 40px 0 0;
+    font-family: Oswald, sans-serif
+}
+header form {
+    float: right;
+    margin-top: 30px;
+    background: #0383c0;
+    padding: 15px;
+    color: #fff;
+    border-radius: 5px
+}
+#products img {
+    height: 190px;
+    width: 130px
+}
+.slide-img {
+
+    float: right;
+    width: 20%;
+    margin-right: 80px;
+      margin-top: 30px;
+}
+.main-img{
+  width:180px;
+  height: 320px;
+
+}
+.jumbotron {
+    overflow: auto;
+    padding: 0!important;
+    font-size: 15px
+}
+.tablist {
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 30%
+}
+.tablist li {
+  background: #ccc;
+  list-style: none;
+  color: #666;
+  padding: 30.25px 10px;
+  padding-left: 20px;
+  width: 100%;
+  font-size: 15px;
+  border-bottom:3px solid #fff !important;
+}
+.tablist li.active{
+  background: #0383c0;
+  color:#fff;
+}
+.tablist li.active a{
+  color:#fff;
+}
+.tablist a{
+  color:#666;
+  display: block;
+  text-decoration: none;
+}
+.tab-content{
+  float:right;
+  width: 70%;
+  background: #0383c0;
+  color: #fff;
+  overflow: hidden;
+  height: 420px;
+  padding-top: 22px;
+}
+.tab-text{
+  float:left;
+  width:40%;
+  margin-left: 40px;
+}
+
+@media(max-width:768px){
+  .slide-img{
+    display: none;
+  }
+  .tab-text{
+    float:none;
+    width: 80%;
+  }
+  .navbar a{
+    color:#000 !important;
+  }
+
+  .navbar a:hover{
+    color: #0383c0 !important;
+  }
+  .navbar form{
+    display: none;
+  }
+}
+
+footer{
+  text-align:center;
+  height:60px;
+  background:#f4f4f4;
+  padding-top: 20px;
+  margin-top: 50px;
+  color:#000 !important;
+}
+
+@media(max-width:960px){
+  header form{
+    width: 100% !important;
+  }
+}
+
+@media(max-width:960px){
+  .tab-content{
+    height: 520px;
+
+  }
+}
+.maim-img{
+  width: 100%;
+}
